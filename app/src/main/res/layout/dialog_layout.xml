@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="Enter Name "
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name   :"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#123"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/eage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ename"
+        android:ems="8"
+        android:hint="Enter Age"
+        android:layout_marginLeft="100dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tname"
+        android:text="Age       :"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#123"
+        android:layout_marginLeft="18dp"
+        />
+
+    <EditText
+        android:id="@+id/eroll"
+        android:layout_below="@id/eage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="number"
+        android:hint="Enter Roll No"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:id="@+id/troll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No :"
+        android:layout_marginLeft="18dp"
+        android:textColor="#123"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/tage"
+
+
+        />
+    <Button
+        android:background="@drawable/round_button"
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/troll"
+        />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/troll"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/round_button"
+        android:text="Cancel"
+
+        />
+
+</RelativeLayout>
